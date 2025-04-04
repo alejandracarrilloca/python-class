@@ -1,3 +1,5 @@
+#Este codigo busca secuencias que inician con ATG.
+
 secuencias = input("Ingresa una secuencias separadas por comas:").upper().split(",")
 print(f"\nSecuencias: {secuencias}")
 

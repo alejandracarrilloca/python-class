@@ -1,3 +1,5 @@
+#Este codigo cuenta la cantidad de nucleotidos en una secuencia de ADN.
+
 secuencias = input("Ingresa una secuencias separadas por comas:").upper().split(",")
 
 a = [secuencia.count("A") for secuencia in secuencias]

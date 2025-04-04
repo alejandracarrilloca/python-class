@@ -1,3 +1,5 @@
+#Este codigo cuenta el numero de secuencias en un archivo FASTA.
+
 with open("secuencias.fasta", "r") as input:
     lineas = input.readlines()
 
